@@ -77,6 +77,6 @@ app.get('/ConfiguringDevices', function (req, res) {
 res.status(570).send('ConfiguringDevices')
 })
 
-app.listen(80, function () {
+app.listen(3000, function () {
   console.log('Example app listening on port 80!')
 })
