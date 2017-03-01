@@ -78,7 +78,7 @@ res.status(570).send('ConfiguringDevices')
 })
 
 app.get('/i/:num', function (req, res) {
-res.status(eval(req.params.num)).send(req.params.num)
+res.status(eval(req.params.num)+1).send(req.params.num)
 })
 
 app.listen(process.env.PORT || 5000, function () {
