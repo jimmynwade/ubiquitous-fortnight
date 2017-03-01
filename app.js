@@ -77,6 +77,10 @@ app.get('/ConfiguringDevices', function (req, res) {
 res.status(570).send('ConfiguringDevices')
 })
 
+app.get('/i/:num', function (req, res) {
+res.status(:num).send(:num)
+})
+
 app.listen(process.env.PORT || 5000, function () {
   console.log('Example app listening on port 80!')
 })
