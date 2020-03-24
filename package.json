@@ -6,7 +6,7 @@
     "node": "5.9.1"
   },
   "dependencies": {
-    "ejs": "2.4.1",
+    "ejs": "3.0.1",
     "express": "4.13.3"
   },
     "main": "app.js",
